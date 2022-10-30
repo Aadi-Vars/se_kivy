@@ -1,2 +1,2 @@
 Jee_Advance Paper_2021-1 English.kv
-kv/Jee_Advance Paper_2021-1 English.kv
+https://raw.githubusercontent.com/Aadi-Vars/se.apk/Main/kv/Jee_Advance%20Paper_2021-1%20English.kv
