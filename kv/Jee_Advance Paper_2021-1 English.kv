@@ -24,7 +24,7 @@
             	
             
             BoxLayout:
-            	id:hello
+            	id:sub_header_box
             	
             	size_hint_y:None
             	height:root.height*0.05
@@ -197,9 +197,11 @@
             	
             
             BoxLayout:
-            	id:sub_head_box
+            	id:sub_header_box
+            	
             	size_hint_y:None
             	height:root.height*0.05
+            	
             	canvas:
 					Color:
             			rgba:(1,1,1,1)
@@ -252,18 +254,75 @@
             			padding:(root.width*0.005,0,root.width*0.005,0)
             			size_hint_y:None
 						height:root.height*0.05
-            			
+            			CheckBox:
+            				id: pap_2021_1_phy_sec1_ques2_opt1
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				group:"check"
 						Label:
 							
-							text:"Your Answer: "
+							text:"step 1 and 2"
 							color:(0,0,0)
 							text_size:self.size
 							
 							halign:"left"
 							valign:"middle"
 							
-						TextInput:
-							id:pap_2021_1_phy_sec1_ques2
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.05
+            			CheckBox:
+            				id: pap_2021_1_phy_sec1_ques2_opt2
+            				size_hint_x:None
+            				
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				group:"check"
+						Label:
+							text:"step 3 and 4"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.05
+            			CheckBox:
+            				id:pap_2021_1_phy_sec1_ques2_opt3
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				group:"check"			
+						Label
+							text:"step 1 and 4"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+							
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.05
+            			CheckBox:
+            				id:pap_2021_1_phy_sec1_ques2_opt4
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				group:"check"
+						Label:
+							text:"step 2 and 4"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+							
 			BoxLayout:
 				orientation:"horizontal"
 				spacing:root.width*0.05
@@ -288,3 +347,177 @@
             		background_color:(0,0,0,1)
             		color:(1,1,1,1)
             		on_release:root.save_ans("pap_2021_1_phy_sec1_ques2")
+            		
+		BoxLayout:
+			id:main_box
+			orientation:"vertical"
+			spacing:root.height*0.005
+			BoxLayout:
+				id:header
+				size_hint_y:None
+				height:root.height*0.05
+				canvas:
+					Color:
+            			rgba:(0.082, 0.105, 0.32,1)
+       		 	Rectangle:
+            			size: self.size
+            			pos: self.pos
+            			
+            	Label:
+            		text:"Jee Advance Paper 2021-1 English"
+            		color:(1,1,1,1)
+            	
+            
+            BoxLayout:
+            	id:sub_header_box
+            	
+            	size_hint_y:None
+            	height:root.height*0.05
+            	
+            	canvas:
+					Color:
+            			rgba:(1,1,1,1)
+       		 	Rectangle:
+            			size: self.size
+            			pos: self.pos
+            	
+            	Label:
+            		text:"Question"
+            		halign:"left"
+            		bold:True
+            		color:(0,0,0,1)
+            		
+			ScrollView:
+				BoxLayout:
+					id:body_box
+					size_hint_y:None
+					height:root.height*0.5
+					width:root.width
+					spacing:root.height*0.01
+					
+					canvas:
+						Color:
+            				rgba:(1,1,1,1)
+       				 Rectangle:
+            				size: self.size
+            				pos: self.pos
+					orientation:"vertical"
+			
+					AsyncImage:
+						source:"https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_sec1_instr.jpg"
+						keep_ratio:False
+						allow_stretch:True
+						size_hint:(None,None)
+						width:root.width*0.9
+						height:root.height*0.1
+						
+						
+					AsyncImage:
+						source: "https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec1_ques3.jpg"
+						keep_ratio:False
+						allow_stretch:True
+						size_hint:(None,None)
+						width:root.width*0.9
+						height:root.height*0.12
+						
+						
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.05
+            			CheckBox:
+            				id: pap_2021_1_phy_sec1_ques3_opt1
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				group:"check"
+						Label:
+							
+							text:"0.4"
+							color:(0,0,0)
+							text_size:self.size
+							
+							halign:"left"
+							valign:"middle"
+							
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.05
+            			CheckBox:
+            				id: pap_2021_1_phy_sec1_ques3_opt2
+            				size_hint_x:None
+            				
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				group:"check"
+						Label:
+							text:"0.8"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.05
+            			CheckBox:
+            				id:pap_2021_1_phy_sec1_ques3_opt3
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				group:"check"			
+						Label
+							text:"1.8"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+							
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.05
+            			CheckBox:
+            				id:pap_2021_1_phy_sec1_ques3_opt4
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				group:"check"
+						Label:
+							text:"1.6"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+							
+			BoxLayout:
+				orientation:"horizontal"
+				spacing:root.width*0.05
+				size_hint_y:None
+				width:root.width*0.05
+				canvas:
+					Color:
+            			rgba:(1,1,1,1)
+       		 	Rectangle:
+            			size: self.size
+            			pos: self.pos
+            	Button:
+            		text:"Submit"
+            		size_hint_x:None
+            		width:root.width*0.4
+            		on_release:root.submit()
+            	Button:
+            		text:"Save"
+            		
+            		size_hint_x:None
+            		width:root.width*0.4
+            		background_color:(0,0,0,1)
+            		color:(1,1,1,1)
+            		on_release:root.save_ans("pap_2021_1_phy_sec1_ques3")
+      	
+      				
