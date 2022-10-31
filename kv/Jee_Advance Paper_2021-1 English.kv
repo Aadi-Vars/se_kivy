@@ -1438,3 +1438,667 @@
             		color:(1,1,1,1)
             		on_release:root.save_ans("pap_2021_1_phy_sec3_ques11")
      
+		BoxLayout:
+			id:main_box
+			canvas:
+				Color:
+            		rgba:(1,1,1,1)
+       		 Rectangle:
+            		size: self.size
+            		pos: self.pos
+			orientation:"vertical"
+			spacing:root.height*0.005
+			BoxLayout:
+				id:header
+				size_hint_y:None
+				height:root.height*0.05
+				canvas:
+					Color:
+            			rgba:(0.082, 0.105, 0.32,1)
+       		 	Rectangle:
+            			size: self.size
+            			pos: self.pos
+            			
+            	Label:
+            		text:"Jee Advance Paper 2021-1 English"
+            		color:(1,1,1,1)
+            	
+            
+            BoxLayout:
+            	id:sub_header_box
+            	
+            	size_hint_y:None
+            	height:root.height*0.05
+            	
+            	Label:
+            		text:"Question"
+            		halign:"left"
+            		bold:True
+            		color:(0,0,0,1)
+            		
+			ScrollView:
+				BoxLayout:
+					id:body_box
+					size_hint_y:None
+					height:root.height
+					width:root.width
+					spacing:root.height*0.01
+	
+					orientation:"vertical"
+			
+					AsyncImage:
+						source:"https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_sec3_instr.jpg"
+						keep_ratio:False
+						allow_stretch:True
+						size_hint:(None,None)
+						width:root.width*0.85
+						height:root.height*0.4
+						
+						
+					AsyncImage:
+						source: "https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec3_ques12.jpg"
+						keep_ratio:False
+						allow_stretch:True
+						size_hint:(None,None)
+						width:root.width*0.85
+						height:root.height*0.2
+						
+						
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id: pap_2021_1_phy_sec3_ques12_opt1
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				
+						Label:
+							
+							text:"The light ray enters air if n2=n1"
+							color:(0,0,0)
+							text_size:self.size
+							
+							halign:"left"
+							valign:"middle"
+							
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id: pap_2021_1_phy_sec3_ques12_opt2
+            				size_hint_x:None
+            				
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				
+						Label:
+							text:"The light ray is finally reflected back into the medium of refractive index n1 if n2<n1"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id:pap_2021_1_phy_sec3_ques12_opt3
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            						
+						Label
+							text:"The light ray is finally reflected back into the medium of refractive index n1 if n2>n1"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+							
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id:pap_2021_1_phy_sec3_ques12_opt4
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				
+						Label:
+							text:"The light ray is reflected back into the medium of refractive index n1 if n2=1"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+							
+			BoxLayout:
+				orientation:"horizontal"
+				spacing:root.width*0.05
+				size_hint_y:None
+				width:root.width*0.05
+
+            	Button:
+            		text:"Submit"
+            		size_hint_x:None
+            		width:root.width*0.4
+            		on_release:root.submit()
+            	Button:
+            		text:"Save"
+            		
+            		size_hint_x:None
+            		width:root.width*0.4
+            		background_color:(0,0,0,1)
+            		color:(1,1,1,1)
+            		on_release:root.save_ans("pap_2021_1_phy_sec3_ques12")
+     
+		BoxLayout:
+			id:main_box
+			canvas:
+				Color:
+            		rgba:(1,1,1,1)
+       		 Rectangle:
+            		size: self.size
+            		pos: self.pos
+			orientation:"vertical"
+			spacing:root.height*0.005
+			BoxLayout:
+				id:header
+				size_hint_y:None
+				height:root.height*0.05
+				canvas:
+					Color:
+            			rgba:(0.082, 0.105, 0.32,1)
+       		 	Rectangle:
+            			size: self.size
+            			pos: self.pos
+            			
+            	Label:
+            		text:"Jee Advance Paper 2021-1 English"
+            		color:(1,1,1,1)
+            	
+            
+            BoxLayout:
+            	id:sub_header_box
+            	
+            	size_hint_y:None
+            	height:root.height*0.05
+            	
+            	Label:
+            		text:"Question"
+            		halign:"left"
+            		bold:True
+            		color:(0,0,0,1)
+            		
+			ScrollView:
+				BoxLayout:
+					id:body_box
+					size_hint_y:None
+					height:root.height
+					width:root.width
+					spacing:root.height*0.01
+	
+					orientation:"vertical"
+			
+					AsyncImage:
+						source:"https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_sec3_instr.jpg"
+						keep_ratio:False
+						allow_stretch:True
+						size_hint:(None,None)
+						width:root.width*0.85
+						height:root.height*0.4
+						
+						
+					AsyncImage:
+						source: "https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec3_ques13.jpg"
+						keep_ratio:False
+						allow_stretch:True
+						size_hint:(None,None)
+						width:root.width*0.85
+						height:root.height*0.2
+						
+						
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id: pap_2021_1_phy_sec3_ques13_opt1
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				
+						Label:
+							
+							text:"The particle arrives at the point (x=l,y=-h) at time t=2s"
+							color:(0,0,0)
+							text_size:self.size
+							
+							halign:"left"
+							valign:"middle"
+							
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id: pap_2021_1_phy_sec3_ques13_opt2
+            				size_hint_x:None
+            				
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            			BoxLayout:
+            				
+            				AsyncImage:
+            					source="https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec3_ques13_opt2.jpg"
+            					keep_ratio:False
+								allow_stretch:True
+								
+								
+							Label:
+								text:"when the particle passes through the point (x=l,y=-h)"
+								color:(0,0,0)
+								text_size:self.size
+								halign:"left"
+								valign:"middle"
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id:pap_2021_1_phy_sec3_ques13_opt3
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            						
+						BoxLayout:
+            				
+            				AsyncImage:
+            					source="https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec3_ques13_opt3.jpg"
+            					keep_ratio:False
+								allow_stretch:True
+								
+								
+							Label:
+								text:"when the particle passes through the point (x=l,y=-h)"
+								color:(0,0,0)
+								text_size:self.size
+								halign:"left"
+								valign:"middle"
+							
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id:pap_2021_1_phy_sec3_ques13_opt4
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				
+						BoxLayout:
+            				
+            				AsyncImage:
+            					source="https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec3_ques13_opt4.jpg"
+            					keep_ratio:False
+								allow_stretch:True
+								
+								
+							Label:
+								text:"when the particle passes through the point (x=0,y=-h)"
+								color:(0,0,0)
+								text_size:self.size
+								halign:"left"
+								valign:"middle"
+							
+			BoxLayout:
+				orientation:"horizontal"
+				spacing:root.width*0.05
+				size_hint_y:None
+				width:root.width*0.05
+
+            	Button:
+            		text:"Submit"
+            		size_hint_x:None
+            		width:root.width*0.4
+            		on_release:root.submit()
+            	Button:
+            		text:"Save"
+            		
+            		size_hint_x:None
+            		width:root.width*0.4
+            		background_color:(0,0,0,1)
+            		color:(1,1,1,1)
+            		on_release:root.save_ans("pap_2021_1_phy_sec3_ques13")
+     
+     
+		BoxLayout:
+			id:main_box
+			canvas:
+				Color:
+            		rgba:(1,1,1,1)
+       		 Rectangle:
+            		size: self.size
+            		pos: self.pos
+			orientation:"vertical"
+			spacing:root.height*0.005
+			BoxLayout:
+				id:header
+				size_hint_y:None
+				height:root.height*0.05
+				canvas:
+					Color:
+            			rgba:(0.082, 0.105, 0.32,1)
+       		 	Rectangle:
+            			size: self.size
+            			pos: self.pos
+            			
+            	Label:
+            		text:"Jee Advance Paper 2021-1 English"
+            		color:(1,1,1,1)
+            	
+            
+            BoxLayout:
+            	id:sub_header_box
+            	
+            	size_hint_y:None
+            	height:root.height*0.05
+            	
+            	Label:
+            		text:"Question"
+            		halign:"left"
+            		bold:True
+            		color:(0,0,0,1)
+            		
+			ScrollView:
+				BoxLayout:
+					id:body_box
+					size_hint_y:None
+					height:root.height
+					width:root.width
+					spacing:root.height*0.01
+	
+					orientation:"vertical"
+			
+					AsyncImage:
+						source:"https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_sec3_instr.jpg"
+						keep_ratio:False
+						allow_stretch:True
+						size_hint:(None,None)
+						width:root.width*0.85
+						height:root.height*0.4
+						
+						
+					AsyncImage:
+						source: "https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec3_ques14.jpg"
+						keep_ratio:False
+						allow_stretch:True
+						size_hint:(None,None)
+						width:root.width*0.85
+						height:root.height*0.2
+						
+						
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id: pap_2021_1_phy_sec3_ques14_opt1
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				
+						Label:
+							
+							text:"The ratio of the longest wavelength to the shortest wavelength in Balmer series is 9/5"
+							color:(0,0,0)
+							text_size:self.size
+							
+							halign:"left"
+							valign:"middle"
+							
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id: pap_2021_1_phy_sec3_ques14_opt2
+            				size_hint_x:None
+            				
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				
+						Label:
+							text:"There is an overlap between the wavelength ranges of Balmer and Paschen series"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id:pap_2021_1_phy_sec3_ques14_opt3
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            						
+						Label
+							text:"The wavelengths of Lyman series are given by (1+1/m^2 )λ• where λ• is the shortest wavelength of Lyman series and m is an integer"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+							
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id:pap_2021_1_phy_sec3_ques14_opt4
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				
+						Label:
+							text:"The wavelength ranges of Lyman and Balmer series do not overlap"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+							
+			BoxLayout:
+				orientation:"horizontal"
+				spacing:root.width*0.05
+				size_hint_y:None
+				width:root.width*0.05
+
+            	Button:
+            		text:"Submit"
+            		size_hint_x:None
+            		width:root.width*0.4
+            		on_release:root.submit()
+            	Button:
+            		text:"Save"
+            		
+            		size_hint_x:None
+            		width:root.width*0.4
+            		background_color:(0,0,0,1)
+            		color:(1,1,1,1)
+            		on_release:root.save_ans("pap_2021_1_phy_sec3_ques14")
+     
+		BoxLayout:
+			id:main_box
+			canvas:
+				Color:
+            		rgba:(1,1,1,1)
+       		 Rectangle:
+            		size: self.size
+            		pos: self.pos
+			orientation:"vertical"
+			spacing:root.height*0.005
+			BoxLayout:
+				id:header
+				size_hint_y:None
+				height:root.height*0.05
+				canvas:
+					Color:
+            			rgba:(0.082, 0.105, 0.32,1)
+       		 	Rectangle:
+            			size: self.size
+            			pos: self.pos
+            			
+            	Label:
+            		text:"Jee Advance Paper 2021-1 English"
+            		color:(1,1,1,1)
+            	
+            
+            BoxLayout:
+            	id:sub_header_box
+            	
+            	size_hint_y:None
+            	height:root.height*0.05
+            	
+            	Label:
+            		text:"Question"
+            		halign:"left"
+            		bold:True
+            		color:(0,0,0,1)
+            		
+			ScrollView:
+				BoxLayout:
+					id:body_box
+					size_hint_y:None
+					height:root.height
+					width:root.width
+					spacing:root.height*0.01
+	
+					orientation:"vertical"
+			
+					AsyncImage:
+						source:"https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_sec3_instr.jpg"
+						keep_ratio:False
+						allow_stretch:True
+						size_hint:(None,None)
+						width:root.width*0.85
+						height:root.height*0.4
+						
+						
+					AsyncImage:
+						source: "https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec3_ques15.jpg"
+						keep_ratio:False
+						allow_stretch:True
+						size_hint:(None,None)
+						width:root.width*0.85
+						height:root.height*0.2
+						
+						
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id: pap_2021_1_phy_sec3_ques15_opt1
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				
+						Label:
+							
+							text:"Maximum current through R is 1.2 ×10^-6 ampere "
+							color:(0,0,0)
+							text_size:self.size
+							
+							halign:"left"
+							valign:"middle"
+							
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id: pap_2021_1_phy_sec3_ques15_opt2
+            				size_hint_x:None
+            				
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				
+						Label:
+							text:"Maximum current through R is 3.8 ×10^−6 ampere"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id:pap_2021_1_phy_sec3_ques15_opt3
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            						
+						Label
+							text:"Maximum charge on capacitor C• is 8.4 ×10^−12 coulomb"
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+							
+					GridLayout:
+            			cols:2
+            			padding:(root.width*0.005,0,root.width*0.005,0)
+            			size_hint_y:None
+						height:root.height*0.08
+            			CheckBox:
+            				id:pap_2021_1_phy_sec3_ques15_opt4
+            				size_hint_x:None
+            				width:root.width*0.1
+            				color:(0,0,0,1)
+            				
+						Label:
+							text:"Maximum charge on capacitor C• is 2.4 ×10^−12 coulomb "
+							color:(0,0,0)
+							text_size:self.size
+							halign:"left"
+							valign:"middle"
+							
+			BoxLayout:
+				orientation:"horizontal"
+				spacing:root.width*0.05
+				size_hint_y:None
+				width:root.width*0.05
+
+            	Button:
+            		text:"Submit"
+            		size_hint_x:None
+            		width:root.width*0.4
+            		on_release:root.submit()
+            	Button:
+            		text:"Save"
+            		
+            		size_hint_x:None
+            		width:root.width*0.4
+            		background_color:(0,0,0,1)
+            		color:(1,1,1,1)
+            		on_release:root.save_ans("pap_2021_1_phy_sec3_ques12")
+     
