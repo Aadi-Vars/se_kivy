@@ -1696,19 +1696,28 @@
             				width:root.width*0.1
             				color:(0,0,0,1)
             			BoxLayout:
-            				
+            				orientation:"vertical"
+            				BoxLayout:
+            					orientation:"horizontal"
             				AsyncImage:
             					source:"https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec3_ques13_opt2.jpg"
             					keep_ratio:False
-								allow_stretch:True
-								
+									allow_stretch:True
+									width:root.width*0.05
+								Label:
+									text:"when the particle"
+									color:(0,0,0,1)
+									text_size:self.size
+									halign:"left"
+									valign:"middle"
 								
 							Label:
-								text:"when the particle passes through the point (x=l,y=-h)"
+								text:"passes through the point (x=l,y=-h)"
 								color:(0,0,0)
 								text_size:self.size
 								halign:"left"
 								valign:"middle"
+								
 					GridLayout:
             			cols:2
             			padding:(root.width*0.005,0,root.width*0.005,0)
@@ -1721,15 +1730,24 @@
             				color:(0,0,0,1)
             						
 						BoxLayout:
-            				
+            				orientation:"vertical"
+            				BoxLayout:
+            					orientation:"horizontal"
             				AsyncImage:
             					source:"https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec3_ques13_opt3.jpg"
             					keep_ratio:False
-								allow_stretch:True
+									allow_stretch:True
+									width:root.width*0.05
+								Label:
+									text:"when the particle"
+									color:(0,0,0,1)
+									text_size:self.size
+									halign:"left"
+									valign:"middle"
 								
 								
 							Label:
-								text:"when the particle passes through the point (x=l,y=-h)"
+								text:"passes through the point (x=l,y=-h)"
 								color:(0,0,0)
 								text_size:self.size
 								halign:"left"
@@ -1754,7 +1772,7 @@
             						source:"https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec3_ques13_opt4.jpg"
 									keep_ratio:False
 									allow_stretch:True
-									width:root.width*0.1
+									width:root.width*0.05
 								Label:
 									text:"when the particle"
 									color:(0,0,0,1)
