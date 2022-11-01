@@ -1747,15 +1747,23 @@
             				color:(0,0,0,1)
             				
 						BoxLayout:
-            				
-            				AsyncImage:
-            					source:"https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec3_ques13_opt4.jpg"
-            					keep_ratio:False
-								allow_stretch:True
-								
+						    orientation:"vertical"
+            				BoxLayout:
+            					orientation:"horizontal"
+            					AsyncImage:
+            						source:"https://raw.githubusercontent.com/Aadi-Vars/se/main/static/Jee%20Advance/Paper%202021-1/English/img/pap_2021_1_phy_sec3_ques13_opt4.jpg"
+            						keep_ratio:False
+									allow_stretch:True
+									width=root.width*0.1
+								Label:
+									text:"when the particle"
+									color:(0,0,0,1)
+									text_size:self.size
+									halign:"left"
+									valign:"middle"
 								
 							Label:
-								text:"when the particle passes through the point (x=0,y=-h)"
+								text:"passes through the point (x=0,y=-h)"
 								color:(0,0,0)
 								text_size:self.size
 								halign:"left"
@@ -1845,7 +1853,7 @@
 						allow_stretch:True
 						size_hint:(None,None)
 						width:root.width*0.85
-						height:root.height*0.1
+						height:root.height*0.2
 						
 						
 					GridLayout:
@@ -1890,7 +1898,7 @@
             			cols:2
             			padding:(root.width*0.005,0,root.width*0.005,0)
             			size_hint_y:None
-						height:root.height*0.1
+						height:root.height*0.08
             			CheckBox:
             				id:pap_2021_1_phy_sec3_ques14_opt3
             				size_hint_x:None
@@ -1996,7 +2004,7 @@
 						allow_stretch:True
 						size_hint:(None,None)
 						width:root.width*0.85
-						height:root.height*0.5
+						height:root.height*0.4
 						
 						
 					AsyncImage:
